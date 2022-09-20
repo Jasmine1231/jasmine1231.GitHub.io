@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh/en">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -18,18 +18,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"jasmine1231.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"jasmine1231.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"بحث...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="notes taken from UC Berkeley CS61A (2017 Spring)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CS61A notes">
 <meta property="og:url" content="https://jasmine1231.github.io/2020/06/06/CS61Anotes/index.html">
-<meta property="og:site_name" content="Jasmine&#39;s Tech Home">
+<meta property="og:site_name" content="Jasmine&#39;s Cellar">
 <meta property="og:description" content="notes taken from UC Berkeley CS61A (2017 Spring)">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale">
 <meta property="article:published_time" content="2020-06-06T06:31:54.000Z">
 <meta property="article:modified_time" content="2020-08-11T13:03:23.000Z">
-<meta property="article:author" content="Jiaqi Tang">
+<meta property="article:author" content="Jasmine Tang">
 <meta property="article:tag" content="database">
 <meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
@@ -39,10 +39,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://jasmine1231.github.io/2020/06/06/CS61Anotes/","path":"2020/06/06/CS61Anotes/","title":"CS61A notes"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh/en","comments":true,"permalink":"https://jasmine1231.github.io/2020/06/06/CS61Anotes/","path":"2020/06/06/CS61Anotes/","title":"CS61A notes"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>CS61A notes | Jasmine's Tech Home</title>
+<title>CS61A notes | Jasmine's Cellar</title>
   
 
 
@@ -62,7 +62,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    <div class="toggle" aria-label="تشغيل شريط التصفح" role="button">
     </div>
   </div>
 
@@ -70,7 +70,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <p class="site-title">Jasmine's Tech Home</p>
+      <p class="site-title">Jasmine's Cellar</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -101,10 +101,10 @@
     <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          المحتويات
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          عام
         </li>
       </ul>
 
@@ -117,7 +117,7 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">Jiaqi Tang</p>
+  <p class="site-author-name" itemprop="name">Jasmine Tang</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
@@ -125,18 +125,18 @@
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
           <span class="site-state-item-count">9</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">المقالات</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">categories</span></a>
+        <span class="site-state-item-name">التصنيفات</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
         <span class="site-state-item-count">15</span>
-        <span class="site-state-item-name">tags</span></a>
+        <span class="site-state-item-name">الوسوم</span></a>
       </div>
   </nav>
 </div>
@@ -173,21 +173,21 @@
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh/en">
     <link itemprop="mainEntityOfPage" href="https://jasmine1231.github.io/2020/06/06/CS61Anotes/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Jiaqi Tang">
+      <meta itemprop="name" content="Jasmine Tang">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jasmine's Tech Home">
+      <meta itemprop="name" content="Jasmine's Cellar">
       <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="CS61A notes | Jasmine's Tech Home">
+      <meta itemprop="name" content="CS61A notes | Jasmine's Cellar">
       <meta itemprop="description" content="notes taken from UC Berkeley CS61A (2017 Spring)">
     </span>
       <header class="post-header">
@@ -201,22 +201,22 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">نُشر في</span>
 
-      <time title="Created: 2020-06-06 14:31:54" itemprop="dateCreated datePublished" datetime="2020-06-06T14:31:54+08:00">2020-06-06</time>
+      <time title="أُنشأ: 2020-06-06 14:31:54" itemprop="dateCreated datePublished" datetime="2020-06-06T14:31:54+08:00">2020-06-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2020-08-11 21:03:23" itemprop="dateModified" datetime="2020-08-11T21:03:23+08:00">2020-08-11</time>
+      <span class="post-meta-item-text">عُدل في</span>
+      <time title="عُدل: 2020-08-11 21:03:23" itemprop="dateModified" datetime="2020-08-11T21:03:23+08:00">2020-08-11</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
       </span>
-      <span class="post-meta-item-text">In</span>
+      <span class="post-meta-item-text">في</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
           <a href="/categories/study-notes/" itemprop="url" rel="index"><span itemprop="name">study notes</span></a>
         </span>
@@ -224,19 +224,19 @@
 
   
     <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Symbols count in article">
+    <span class="post-meta-item" title="عدد الحروف في المقال">
       <span class="post-meta-item-icon">
         <i class="far fa-file-word"></i>
       </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span class="post-meta-item-text">عدد الحروف في المقال: </span>
       <span>3.6k</span>
     </span>
-    <span class="post-meta-item" title="Reading time">
+    <span class="post-meta-item" title="زمن القراءة">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>3 mins.</span>
+      <span class="post-meta-item-text">زمن القراءة &asymp;</span>
+      <span>3 دقائق.</span>
     </span>
 </div>
 
@@ -349,23 +349,23 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Jiaqi Tang</span>
+  <span class="author" itemprop="copyrightHolder">Jasmine Tang</span>
 </div>
 <div class="wordcount">
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Symbols count total">26k</span>
+    <span title="مُجمل عدد الحروف">26k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">24 mins.</span>
+    <span title="مُجمل زمن القراءة">24 دقائق.</span>
   </span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">تطبيق الموقع <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
   </div>
 
     </div>
